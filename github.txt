@@ -3,6 +3,7 @@ git init <<= add repository
 git add --a <<= add all file on staging area
 git add <file_name> <<= specific file add on staging area
 git commit -m "Comment" <<= push on GitHubtouch .gitignore <<= for ignoring specific files( Open .gitignore file and write file name which file yoou want to ignore)
-
-
+git diff <<= compare staging area and working directory 
+git diff --staged <<= compare with last status
+git rm <file_name>  << delete file
 
