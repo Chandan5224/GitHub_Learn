@@ -6,4 +6,6 @@ git commit -m "Comment" <<= push on GitHubtouch .gitignore <<= for ignoring spe
 git diff <<= compare staging area and working directory 
 git diff --staged <<= compare with last status
 git rm <file_name>  << delete file
+git mv <present_file_name> <rename>  << Rename file
+git rm --cached <file_name> <<= for untrack file
 
